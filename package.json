@@ -1,0 +1,33 @@
+{
+  "name": "codesprint-by-sj-devs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "api": "node server.js",
+    "start:local": "node scripts/start-local.mjs",
+    "audit:auth": "node scripts/auth-audit.mjs",
+    "audit:status": "node scripts/audit-status.mjs",
+    "import:data": "node scripts/import-master-pack.mjs",
+    "mcq:rebuild": "node scripts/rebuild-mcq-bank.mjs",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "@vitejs/plugin-react": "^5.1.1",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^0.555.0",
+    "mongodb": "^7.2.0",
+    "motion": "^12.23.24",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.17.0",
+    "tailwindcss": "^4.1.17",
+    "vite": "^7.2.4"
+  }
+}
